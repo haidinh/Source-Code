@@ -1,0 +1,5 @@
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\BL\bin\Debug\BL.dll
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\BL\bin\Debug\BL.pdb
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\BL\obj\Debug\BL.dll
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\BL\obj\Debug\BL.pdb
