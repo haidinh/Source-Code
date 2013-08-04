@@ -1,0 +1,14 @@
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\BL\bin\Debug\BL.dll
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\BL\bin\Debug\BL.pdb
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\BL\obj\Debug\BL.dll
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\BL\obj\Debug\BL.pdb
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\BL\bin\Debug\BL.dll
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\BL\bin\Debug\BL.pdb
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\BL\bin\Debug\DL.dll
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\BL\bin\Debug\Entities.dll
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\BL\bin\Debug\DL.pdb
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\BL\bin\Debug\Entities.pdb
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\BL\obj\Debug\BL.dll
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\BL\obj\Debug\BL.pdb

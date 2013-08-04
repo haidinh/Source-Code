@@ -1,0 +1,96 @@
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\eProjectSem3Team5\bin\eProjectSem3Team5.dll
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\eProjectSem3Team5\bin\eProjectSem3Team5.pdb
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\eProjectSem3Team5\bin\Antlr3.Runtime.dll
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\eProjectSem3Team5\bin\AspNet.ScriptManager.jQuery.dll
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\eProjectSem3Team5\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\eProjectSem3Team5\bin\DotNetOpenAuth.AspNet.dll
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\eProjectSem3Team5\bin\DotNetOpenAuth.Core.dll
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\eProjectSem3Team5\bin\DotNetOpenAuth.OAuth.Consumer.dll
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\eProjectSem3Team5\bin\DotNetOpenAuth.OAuth.dll
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\eProjectSem3Team5\bin\DotNetOpenAuth.OpenId.dll
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\eProjectSem3Team5\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\eProjectSem3Team5\bin\EntityFramework.dll
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\eProjectSem3Team5\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\eProjectSem3Team5\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\eProjectSem3Team5\bin\Microsoft.ScriptManager.MSAjax.dll
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\eProjectSem3Team5\bin\Microsoft.ScriptManager.WebForms.dll
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\eProjectSem3Team5\bin\Microsoft.Web.Infrastructure.dll
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\eProjectSem3Team5\bin\System.Web.Optimization.dll
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\eProjectSem3Team5\bin\System.Web.Providers.dll
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\eProjectSem3Team5\bin\WebGrease.dll
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\eProjectSem3Team5\bin\EntityFramework.xml
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\eProjectSem3Team5\bin\DotNetOpenAuth.Core.xml
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\eProjectSem3Team5\bin\DotNetOpenAuth.OAuth.xml
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\eProjectSem3Team5\bin\DotNetOpenAuth.OAuth.Consumer.xml
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\eProjectSem3Team5\bin\DotNetOpenAuth.OpenId.xml
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\eProjectSem3Team5\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\eProjectSem3Team5\bin\DotNetOpenAuth.AspNet.xml
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\eProjectSem3Team5\obj\Debug\UI.csprojResolveAssemblyReference.cache
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\eProjectSem3Team5\obj\Debug\eProjectSem3Team5.dll
+c:\users\haikd\documents\visual studio 2012\projects\eProjectSem3Team5\eProjectSem3Team5\obj\Debug\eProjectSem3Team5.pdb
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\eProjectSem3Team5\bin\eProjectSem3Team5.dll
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\eProjectSem3Team5\bin\eProjectSem3Team5.pdb
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\eProjectSem3Team5\bin\Antlr3.Runtime.dll
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\eProjectSem3Team5\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\eProjectSem3Team5\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\eProjectSem3Team5\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\eProjectSem3Team5\bin\DotNetOpenAuth.Core.dll
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\eProjectSem3Team5\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\eProjectSem3Team5\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\eProjectSem3Team5\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\eProjectSem3Team5\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\eProjectSem3Team5\bin\EntityFramework.dll
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\eProjectSem3Team5\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\eProjectSem3Team5\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\eProjectSem3Team5\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\eProjectSem3Team5\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\eProjectSem3Team5\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\eProjectSem3Team5\bin\System.Web.Optimization.dll
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\eProjectSem3Team5\bin\System.Web.Providers.dll
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\eProjectSem3Team5\bin\WebGrease.dll
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\eProjectSem3Team5\bin\EntityFramework.xml
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\eProjectSem3Team5\bin\DotNetOpenAuth.Core.xml
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\eProjectSem3Team5\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\eProjectSem3Team5\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\eProjectSem3Team5\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\eProjectSem3Team5\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\eProjectSem3Team5\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\eProjectSem3Team5\obj\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\eProjectSem3Team5\obj\Debug\eProjectSem3Team5.dll
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\eProjectSem3Team5\obj\Debug\eProjectSem3Team5.pdb
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\eProjectSem3Team5.dll
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\eProjectSem3Team5.pdb
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\Antlr3.Runtime.dll
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\DotNetOpenAuth.Core.dll
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\EntityFramework.dll
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\System.Web.Optimization.dll
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\System.Web.Providers.dll
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\WebGrease.dll
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\EntityFramework.xml
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\DotNetOpenAuth.Core.xml
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\obj\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\obj\Debug\eProjectSem3Team5.dll
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\obj\Debug\eProjectSem3Team5.pdb
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\BL.dll
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\Entities.dll
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\DL.dll
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\BL.pdb
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\Entities.pdb
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\DL.pdb
