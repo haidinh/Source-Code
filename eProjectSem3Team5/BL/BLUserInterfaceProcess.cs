@@ -35,6 +35,14 @@ namespace BL
             }
             return dlUserInterfaceProcess.GetProductByMostFrequentlyViewed();
         }
+        public Careerer Login(string sEmail, string sPassword)
+        {
+            if (dlUserInterfaceProcess == null)
+            {
+                dlUserInterfaceProcess = new DLUserInterfaceProcess();
+            }
+            return dlUserInterfaceProcess.Login(sEmail, sPassword);
+        }
 
     }
 

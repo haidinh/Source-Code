@@ -16,6 +16,19 @@ namespace eProjectSem3Team5.UserInterface
         {
             if (!IsPostBack)
             {
+                if (Session["userName"] != null)
+                {
+                    divUserName.Visible = true;
+                    divLogin.Visible = false;
+                    lblUserName.InnerText = Session["userName"].ToString();
+                    lblUserName.Visible = true;
+                }
+                else
+                {
+                    divLogin.Visible = true;
+                    divUserName.Visible = false;
+                }
+                // Load all categories from database to my page
                 if (blUserInterfaceProcess == null)
                 {
                     blUserInterfaceProcess = new BLUserInterfaceProcess();
@@ -27,8 +40,7 @@ namespace eProjectSem3Team5.UserInterface
                     int iCategoryID = obj.CategoryID;
                     string sCategoryName = obj.CategoryName;
                     if (i % 2 == 0)
-                    {
-                        //ulCategory.InnerHtml = "<li class='even'><a href='#'>"++"</a></li>"; 
+                    {                        
                         ulCategory.InnerHtml += "<li class='even'><a href='ShowProductByCategory.aspx?CategoryID=" + iCategoryID + "&CategoryName=" + sCategoryName + "'>" + sCategoryName + "</a></li>";
                         i++;
                     }

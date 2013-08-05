@@ -18,7 +18,7 @@
     <div class="top_right">
       <div class="languages">
         <div class="lang_text">Languages:</div>
-        <a href="http://all-free-download.com/free-website-templates/" class="lang"><img src="images/en.gif" alt=""  /></a> <a href="http://all-free-download.com/free-website-templates/" class="lang"><img src="images/de.gif" alt="" /></a> </div>
+        <a href="http://all-free-download.com/free-website-templates/" class="lang"><img src="images/en.gif" alt="" /></a> <a href="http://all-free-download.com/free-website-templates/" class="lang"><img src="images/de.gif" alt="" /></a> </div>
       <div class="big_banner"> <a href="http://all-free-download.com/free-website-templates/"><img src="images/banner728.jpg" alt=""  /></a> </div>
     </div>
     <div id="logo"> <a href="http://all-free-download.com/free-website-templates/"><img src="images/logo.png" alt="" width="182" height="85" /></a> </div>
@@ -26,7 +26,7 @@
   <div id="main_content">
     <div id="menu_tab">
       <ul class="menu">
-        <li><a href="http://all-free-download.com/free-website-templates/" class="nav"> Home </a></li>
+        <li><a href="Index.aspx" class="nav"> Home </a></li>
         <li class="divider"></li>
         <li><a href="http://all-free-download.com/free-website-templates/" class="nav">Products</a></li>
         <%--<li class="divider"></li>--%>
@@ -34,10 +34,6 @@
         <li class="divider"></li>
         <li><a href="http://all-free-download.com/free-website-templates/" class="nav">My account</a></li>
         <li class="divider"></li>
-        <%--<li><a href="http://all-free-download.com/free-website-templates/" class="nav">Sign Up</a></li>
-        <li class="divider"></li>
-        <li><a href="http://all-free-download.com/free-website-templates/" class="nav">Sign In </a></li>
-        <li class="divider"></li>--%>
         <li><a href="contact.html" class="nav">Contact Us</a></li>
         <li class="divider"></li>
         <li><a href="details.html" class="nav">Quote Us</a></li>
@@ -61,7 +57,7 @@
       <div class="title_box">Newsletter</div>
       <div class="border_box">
         <input type="text" name="newsletter" class="newsletter_input" value="your email"/>
-        <a href="http://all-free-download.com/free-website-templates/" class="join">subscribe</a> </div>
+        <a href="#" class="join">subscribe</a> </div>
      <%-- <div class="banner_adds"> <a href="http://all-free-download.com/free-website-templates/"><img src="images/bann2.jpg" alt="" border="0" /></a> </div>--%>
     </div>
     <!-- end of left content -->
@@ -151,13 +147,13 @@
     <!-- end of center content -->
     <div class="right_content">
         <div class="border_box">
-           <a href="#" class="login">Log in</a>/<a href="#" class="login">Sign up</a>
-
+           <div id="divLogin" runat="server"><a href="Login.aspx" class="login" id="aLogin" >Log in</a>/<a href="SignUp.aspx" class="login" id="aSignUp">Sign up</a></div>
+           <div id="divUserName" runat="server"> <label id="lblUserName" runat="server" style="color:red;font-size:12px;"> userName </label> <a href="Logout.aspx" class="login">Log out</a></div>
         </div>
       <div class="title_box">Search</div>
       <div class="border_box">
         <input type="text" name="newsletter" class="newsletter_input" value="keyword"/>
-        <a href="http://all-free-download.com/free-website-templates/" class="join">search</a> </div>
+        <a href="#" class="join">search</a> </div>
       <%--<div class="shopping_cart">
         <div class="title_box">Shopping cart</div>
         <div class="cart_details"> 3 items <br />
@@ -188,12 +184,11 @@
   <!-- end of main content -->
   <div class="footer">
     <div class="left_footer"> <img src="images/footer_logo.png" alt="" width="89" height="42"/> </div>
-    <div class="center_footer"> Giant Android limited Company<br />
-      <a href="http://csscreme.com"><%--<img src="images/csscreme.jpg" alt="csscreme" title="csscreme" border="0" />--%></a><br />
-      <%--<img src="images/payment.gif" alt="" />--%> </div>
-    <div class="right_footer"> <a href="http://all-free-download.com/free-website-templates/">home</a> <a href="http://all-free-download.com/free-website-templates/">product</a> <a href="http://all-free-download.com/free-website-templates/">sign up</a> <a href="#">sign in</a> <a href="#">about us</a><a href="#">quote us</a><a href="http://all-free-download.com/free-website-templates/">contact us</a> </div>
+    <div class="center_footer"> Giant Android limited Company<br />Royal city building, 71 Nguyen Trai street, Ha Noi, Viet Nam
+       </div>
+    <div class="right_footer"> <a href="Index.aspx">home</a> <a href="#">product</a> <a href="#">about us</a><a href="#">quote us</a><a href="#">contact us</a> </div>
   </div>
 </div>
 <!-- end of main_container -->
-<%--<div align=center>This template  downloaded form <a href='http://all-free-download.com/free-website-templates/'>free website templates</a></div>--%></body>
+<%--<div align=center>This template  downloaded form <a href='#'>free website templates</a></div>--%></body>
 </html>

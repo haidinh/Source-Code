@@ -107,6 +107,40 @@ namespace DL
                 return null;
             }
         }
+        //  LOG IN
+        public Careerer Login(string sEmail, string sPassword)
+        {
+            try
+            {
+                connect = new Connection().Connect;
+                connect.Open();
+                Command = new SqlCommand("sp_Login", connect);
+                Command.CommandType = System.Data.CommandType.StoredProcedure;
+                Command.Parameters.AddWithValue("@EmailAddress", sEmail);
+                Command.Parameters.AddWithValue("@Password", sPassword);
+                SqlDataReader dr = Command.ExecuteReader();
+                if (dr.Read())
+                {
+                    Careerer objCareerer = new Careerer();
+                    objCareerer.EmailAddress = dr.GetString(0);
+                    objCareerer.Password = dr.GetString(1);
+                    objCareerer.CareererID = dr.GetInt32(2);
+                    connect.Close();
+                    return objCareerer;
+                }
+                else
+                {
+                    connect.Close();
+                    return null;
+                }
+
+            }
+            catch (Exception)
+            {
+                connect.Close();
+                return null;
+            }
+        }
 
 
     }
