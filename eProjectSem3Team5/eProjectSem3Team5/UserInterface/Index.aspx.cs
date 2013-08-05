@@ -27,7 +27,7 @@ namespace eProjectSem3Team5.UserInterface
                     divCenterContent.InnerHtml += "<div class='prod_box'>" +
                                                     "<div class='center_prod_box'>" +
                                                         "<div class='product_title'><a href='ProductDetails.aspx?ProductID=" + obj.ProductID + "'>" + obj.ProductName + "</a></div>" +
-                                                        "<div class='product_img'><a href='ProductDetails.aspx?ProductID=" + obj.ProductID + "'><img src='" + obj.Picture + "' alt='' border='0' /></a></div>" +
+                                                        "<div class='product_img'><a href='ProductDetails.aspx?ProductID=" + obj.ProductID + "'><img src='../"+obj.Picture+"' alt='' border='0' /></a></div>" +
                                                         "<div class='prod_price'><span class='price'>" + obj.UnitPrice + "</span></div>" +
                                                     "</div>" +
                                                     "<div class='prod_details_tab'> <a href='ProductDetails.aspx?ProductID=" + obj.ProductID + "' class='prod_details'>Details</a> </div>" +
@@ -40,7 +40,7 @@ namespace eProjectSem3Team5.UserInterface
                     divCenterContent.InnerHtml += "<div class='prod_box'>" +
                                                    "<div class='center_prod_box'>" +
                                                        "<div class='product_title'><a href='ProductDetails.aspx?ProductID=" + obj.ProductID + "'>" + obj.ProductName + "</a></div>" +
-                                                       "<div class='product_img'><a href='ProductDetails.aspx?ProductID=" + obj.ProductID + "'><img src='U" + obj.Picture + "' alt='' border='0' /></a></div>" +
+                                                       "<div class='product_img'><a href='ProductDetails.aspx?ProductID=" + obj.ProductID + "'><img src='../" + obj.Picture + "' alt='' border='0' /></a></div>" +
                                                        "<div class='prod_price'><span class='price'>" + obj.UnitPrice + "</span></div>" +
                                                    "</div>" +
                                                    "<div class='prod_details_tab'> <a href='ProductDetails.aspx?ProductID=" + obj.ProductID + "' class='prod_details'>Details</a> </div>" +

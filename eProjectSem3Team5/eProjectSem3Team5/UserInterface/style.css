@@ -193,6 +193,13 @@ padding:2px 8px 6px 8px;
 text-decoration: underline;
 color:#169ECC;
 }
+a.login{
+width:17px;
+padding:2px 8px 6px 8px;
+text-decoration: underline;
+color:#169ECC;
+font-size:13px;
+}
 .banner_adds{
 width:180px;
 text-align:center;
