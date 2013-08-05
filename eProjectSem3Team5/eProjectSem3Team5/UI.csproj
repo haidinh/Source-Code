@@ -38,7 +38,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>..\..\..\..\..\Dropbox\TestWebBanHang\WebsiteBanHang\WebsiteFull\WebsiteFull\bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MyWeb.Common">
+      <HintPath>..\..\..\..\..\Dropbox\TestWebBanHang\WebsiteBanHang\WebsiteFull\MyWeb.Common\bin\Debug\MyWeb.Common.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Core" />
@@ -126,6 +132,10 @@
     <Content Include="Account\OpenAuthProviders.ascx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="Account\RegisterExternalLogin.aspx" />
+    <Content Include="Admins\ChangePassword.aspx" />
+    <Content Include="Admins\Default.aspx" />
+    <Content Include="Admins\Login.aspx" />
+    <Content Include="Admins\UpdateProfile.aspx" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
@@ -195,7 +205,93 @@
     <Content Include="Images\orderedList8.png" />
     <Content Include="Images\orderedList9.png" />
     <Content Include="packages.config" />
+    <Content Include="Admins\MasterPage.Master" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
+    <Content Include="App_Themes\Admin\images\add.png" />
+    <Content Include="App_Themes\Admin\images\back.png" />
+    <Content Include="App_Themes\Admin\images\bg.jpg" />
+    <Content Include="App_Themes\Admin\images\bgMenu.gif" />
+    <Content Include="App_Themes\Admin\images\bgTitle.gif" />
+    <Content Include="App_Themes\Admin\images\bgTitle_left.gif" />
+    <Content Include="App_Themes\Admin\images\bgTitle_right.gif" />
+    <Content Include="App_Themes\Admin\images\bg_admin.jpg" />
+    <Content Include="App_Themes\Admin\images\bg_login.jpg" />
+    <Content Include="App_Themes\Admin\images\blank.gif" />
+    <Content Include="App_Themes\Admin\images\blueactive.gif" />
+    <Content Include="App_Themes\Admin\images\bluedefault.gif" />
+    <Content Include="App_Themes\Admin\images\bodybg.gif" />
+    <Content Include="App_Themes\Admin\images\bottom.jpg" />
+    <Content Include="App_Themes\Admin\images\calendar.png" />
+    <Content Include="App_Themes\Admin\images\check.gif" />
+    <Content Include="App_Themes\Admin\images\closed.gif" />
+    <Content Include="App_Themes\Admin\images\control_li_split.gif" />
+    <Content Include="App_Themes\Admin\images\cross.png" />
+    <Content Include="App_Themes\Admin\images\database-import-icon.png" />
+    <Content Include="App_Themes\Admin\images\delete.png" />
+    <Content Include="App_Themes\Admin\images\dot.gif" />
+    <Content Include="App_Themes\Admin\images\down.gif" />
+    <Content Include="App_Themes\Admin\images\edit.png" />
+    <Content Include="App_Themes\Admin\images\flag_en.gif" />
+    <Content Include="App_Themes\Admin\images\flag_vi.gif" />
+    <Content Include="App_Themes\Admin\images\footer.gif" />
+    <Content Include="App_Themes\Admin\images\group-expand-sprite.gif" />
+    <Content Include="App_Themes\Admin\images\icon.png" />
+    <Content Include="App_Themes\Admin\images\icon_adv.jpg" />
+    <Content Include="App_Themes\Admin\images\icon_ask.jpg" />
+    <Content Include="App_Themes\Admin\images\icon_billing.jpg" />
+    <Content Include="App_Themes\Admin\images\icon_contact.jpg" />
+    <Content Include="App_Themes\Admin\images\icon_email.jpg" />
+    <Content Include="App_Themes\Admin\images\icon_gnews.jpg" />
+    <Content Include="App_Themes\Admin\images\icon_gpro.jpg" />
+    <Content Include="App_Themes\Admin\images\icon_lang.jpg" />
+    <Content Include="App_Themes\Admin\images\icon_news.jpg" />
+    <Content Include="App_Themes\Admin\images\icon_ocontact.jpg" />
+    <Content Include="App_Themes\Admin\images\icon_page.jpg" />
+    <Content Include="App_Themes\Admin\images\icon_plan.jpg" />
+    <Content Include="App_Themes\Admin\images\icon_pro.jpg" />
+    <Content Include="App_Themes\Admin\images\icon_report.jpg" />
+    <Content Include="App_Themes\Admin\images\icon_system.jpg" />
+    <Content Include="App_Themes\Admin\images\icon_user.jpg" />
+    <Content Include="App_Themes\Admin\images\icon_user_right.jpg" />
+    <Content Include="App_Themes\Admin\images\len.gif" />
+    <Content Include="App_Themes\Admin\images\menu_bg.jpg" />
+    <Content Include="App_Themes\Admin\images\menu_left.jpg" />
+    <Content Include="App_Themes\Admin\images\menu_right.jpg" />
+    <Content Include="App_Themes\Admin\images\nav_bg.jpg" />
+    <Content Include="App_Themes\Admin\images\new.gif" />
+    <Content Include="App_Themes\Admin\images\news.gif" />
+    <Content Include="App_Themes\Admin\images\open.gif" />
+    <Content Include="App_Themes\Admin\images\page_add.png" />
+    <Content Include="App_Themes\Admin\images\page_save.png" />
+    <Content Include="App_Themes\Admin\images\play_green.png" />
+    <Content Include="App_Themes\Admin\images\printer-blue-icon.png" />
+    <Content Include="App_Themes\Admin\images\record_red.png" />
+    <Content Include="App_Themes\Admin\images\refresh.png" />
+    <Content Include="App_Themes\Admin\images\reload.jpg" />
+    <Content Include="App_Themes\Admin\images\rssicon.gif" />
+    <Content Include="App_Themes\Admin\images\save.png" />
+    <Content Include="App_Themes\Admin\images\start.png" />
+    <Content Include="App_Themes\Admin\images\stop.png" />
+    <Content Include="App_Themes\Admin\images\stop1.png" />
+    <Content Include="App_Themes\Admin\images\sukiennoibat.gif" />
+    <Content Include="App_Themes\Admin\images\title.gif" />
+    <Content Include="App_Themes\Admin\images\titleadmin.gif" />
+    <Content Include="App_Themes\Admin\images\top.jpg" />
+    <Content Include="App_Themes\Admin\images\top_bg_c.jpg" />
+    <Content Include="App_Themes\Admin\images\top_bg_l.jpg" />
+    <Content Include="App_Themes\Admin\images\top_bg_r.jpg" />
+    <Content Include="App_Themes\Admin\images\uncheck.gif" />
+    <Content Include="App_Themes\Admin\images\uplevel.png" />
+    <Content Include="App_Themes\Admin\images\upload.png" />
+    <Content Include="App_Themes\Admin\images\upload_accept.png" />
+    <Content Include="App_Themes\Admin\images\vmms.jpg" />
+    <Content Include="App_Themes\Admin\images\WMP.png" />
+    <Content Include="App_Themes\Admin\images\XPWindowBG.jpg" />
+    <Content Include="App_Themes\Admin\images\XPWindowLeft.jpg" />
+    <Content Include="App_Themes\Admin\images\XPWindowright.jpg" />
+    <Content Include="App_Themes\Admin\images\xuong.gif" />
+    <Content Include="App_Themes\Admin\styleAdmin2.css" />
+    <Content Include="App_Themes\Admin\StyleSheet.css" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
     <Content Include="Scripts\jquery-ui-1.8.20.js" />
@@ -268,6 +364,41 @@
     <Content Include="UserInterface\UserUI.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admins\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admins\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admins\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admins\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admins\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admins\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admins\MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admins\MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admins\UpdateProfile.aspx.cs">
+      <DependentUpon>UpdateProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admins\UpdateProfile.aspx.designer.cs">
+      <DependentUpon>UpdateProfile.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\AuthConfig.cs" />
     <Compile Include="Account\Login.aspx.cs">
@@ -346,7 +477,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Admin\" />
     <Folder Include="App_Data\" />
     <Folder Include="ImageStorage\" />
   </ItemGroup>
