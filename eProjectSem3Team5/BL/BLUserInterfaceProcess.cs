@@ -11,6 +11,7 @@ namespace BL
     public class BLUserInterfaceProcess
     {
         DLUserInterfaceProcess dlUserInterfaceProcess;
+
         public List<Category> GetAllCategory()
         {
             if (dlUserInterfaceProcess == null)
@@ -19,6 +20,7 @@ namespace BL
             }
             return dlUserInterfaceProcess.GetCategory();
         }
+
         public List<Product> GetProductByAddedDate()
         {
             if (dlUserInterfaceProcess == null)
@@ -27,6 +29,8 @@ namespace BL
             }
             return dlUserInterfaceProcess.GetProductByAddedDate();
         }
+
+        // Get products that are most frequently viewed
         public List<Product> GetProductByMostFrequentlyViewed()
         {
             if (dlUserInterfaceProcess == null)
@@ -35,6 +39,8 @@ namespace BL
             }
             return dlUserInterfaceProcess.GetProductByMostFrequentlyViewed();
         }
+
+        // Log in
         public Careerer Login(string sEmail, string sPassword)
         {
             if (dlUserInterfaceProcess == null)
@@ -42,6 +48,16 @@ namespace BL
                 dlUserInterfaceProcess = new DLUserInterfaceProcess();
             }
             return dlUserInterfaceProcess.Login(sEmail, sPassword);
+        }
+
+        // Sign up
+        public bool SignUp(string sEmail, string sPassword, string sUserName)
+        {
+            if (dlUserInterfaceProcess == null)
+            {
+                dlUserInterfaceProcess = new DLUserInterfaceProcess();
+            }
+            return dlUserInterfaceProcess.SignUp(sEmail, sPassword, sUserName);
         }
 
     }

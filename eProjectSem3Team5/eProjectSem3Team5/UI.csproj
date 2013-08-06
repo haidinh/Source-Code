@@ -322,6 +322,8 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="UploadPhoto.aspx" />
+    <Content Include="UserInterface\css SignUp\demo.css" />
+    <Content Include="UserInterface\css SignUp\style.css" />
     <Content Include="UserInterface\css\animate.css" />
     <Content Include="UserInterface\css\reset.css" />
     <Content Include="UserInterface\css\styles.css" />

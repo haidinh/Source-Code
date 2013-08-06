@@ -57,7 +57,7 @@ namespace DL
                     objProduct.MadeGoodsSize = dr.GetDouble(2);
                     objProduct.MachineSize = dr.GetString(3);
                     objProduct.Weight = dr.GetDouble(4);
-                    objProduct.UnitPrice =  dr.GetDecimal(5);
+                    objProduct.UnitPrice = dr.GetDecimal(5);
                     objProduct.Picture = dr.GetString(6);
                     objProduct.FrequentlyViewed = dr.GetInt32(7);
                     objProduct.ProductID = dr.GetInt32(8);
@@ -92,7 +92,7 @@ namespace DL
                     objProduct.MachineSize = dr.GetString(3);
                     objProduct.Weight = dr.GetDouble(4);
                     objProduct.UnitPrice = dr.GetDecimal(5);
-                    objProduct.Picture =  dr.GetString(6);
+                    objProduct.Picture = dr.GetString(6);
                     objProduct.FrequentlyViewed = dr.GetInt32(7);
                     objProduct.ProductID = dr.GetInt32(8);
                     objProduct.ExtraDescription = dr.GetString(9);
@@ -122,7 +122,7 @@ namespace DL
                 if (dr.Read())
                 {
                     Careerer objCareerer = new Careerer();
-                    objCareerer.EmailAddress = dr.GetString(0);
+                    objCareerer.UserName = dr.GetString(0);
                     objCareerer.Password = dr.GetString(1);
                     objCareerer.CareererID = dr.GetInt32(2);
                     connect.Close();
@@ -141,7 +141,30 @@ namespace DL
                 return null;
             }
         }
-
+        // Sign up
+        public bool SignUp(string sEmail, string sPassword, string sUserName)
+        {
+            try
+            {
+                connect = new Connection().Connect;
+                connect.Open();
+                Command = new SqlCommand("sp_SignUp", connect);
+                Command.CommandType = System.Data.CommandType.StoredProcedure;
+                // Assign input value to variables
+                Command.Parameters.AddWithValue("@EmailAddress", sEmail);
+                Command.Parameters.AddWithValue("@Password", sPassword);
+                Command.Parameters.AddWithValue("@UserName", sUserName);
+                // 
+                Command.ExecuteNonQuery();
+                connect.Close();
+                return true;
+            }
+            catch (Exception)
+            {
+                connect.Close();
+                return false;
+            }
+        }
 
     }
 }

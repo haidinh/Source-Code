@@ -145,7 +145,7 @@
       </div>--%>
     </div>
     <!-- end of center content -->
-    <div class="right_content">
+    <div class="right_content" id="divRightContent" runat="server">
         <div class="border_box">
            <div id="divLogin" runat="server"><a href="Login.aspx" class="login" id="aLogin" >Log in</a>/<a href="SignUp.aspx" class="login" id="aSignUp">Sign up</a></div>
            <div id="divUserName" runat="server"> <label id="lblUserName" runat="server" style="color:red;font-size:12px;"> userName </label> <a href="Logout.aspx" class="login">Log out</a></div>

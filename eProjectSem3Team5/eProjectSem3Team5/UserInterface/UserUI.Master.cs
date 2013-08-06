@@ -20,7 +20,7 @@ namespace eProjectSem3Team5.UserInterface
                 {
                     divUserName.Visible = true;
                     divLogin.Visible = false;
-                    lblUserName.InnerText = Session["userName"].ToString();
+                    lblUserName.InnerText = "Hi "+ Session["userName"].ToString() +"!";
                     lblUserName.Visible = true;
                 }
                 else

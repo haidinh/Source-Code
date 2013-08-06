@@ -170,7 +170,6 @@ C:\Users\DatPT\Documents\GitHub\Source-Code\eProjectSem3Team5\eProjectSem3Team5\
 C:\Users\DatPT\Documents\GitHub\Source-Code\eProjectSem3Team5\eProjectSem3Team5\bin\MyWeb.Common.dll
 C:\Users\DatPT\Documents\GitHub\Source-Code\eProjectSem3Team5\eProjectSem3Team5\bin\FredCK.FCKeditorV2.dll
 C:\Users\DatPT\Documents\GitHub\Source-Code\eProjectSem3Team5\eProjectSem3Team5\bin\MyWeb.Common.pdb
-<<<<<<< HEAD
 C:\Users\HaiKD\Desktop\New eproject\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\eProjectSem3Team5.dll
 C:\Users\HaiKD\Desktop\New eproject\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\eProjectSem3Team5.pdb
 C:\Users\HaiKD\Desktop\New eproject\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\Antlr3.Runtime.dll
@@ -209,5 +208,5 @@ C:\Users\HaiKD\Desktop\New eproject\Source-Code-master\eProjectSem3Team5\eProjec
 C:\Users\HaiKD\Desktop\New eproject\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\obj\Debug\UI.csprojResolveAssemblyReference.cache
 C:\Users\HaiKD\Desktop\New eproject\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\obj\Debug\eProjectSem3Team5.dll
 C:\Users\HaiKD\Desktop\New eproject\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\obj\Debug\eProjectSem3Team5.pdb
-=======
->>>>>>> 6e4e6cdbbbe0fa27ab94ba307e2d1c6c4015aaf7
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\FredCK.FCKeditorV2.dll
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\bin\MyWeb.Common.pdb
