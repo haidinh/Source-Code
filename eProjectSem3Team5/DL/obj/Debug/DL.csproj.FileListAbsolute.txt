@@ -22,6 +22,7 @@ C:\Users\DatPT\Documents\GitHub\Source-Code\eProjectSem3Team5\DL\bin\Debug\Entit
 C:\Users\DatPT\Documents\GitHub\Source-Code\eProjectSem3Team5\DL\obj\Debug\DL.csprojResolveAssemblyReference.cache
 C:\Users\DatPT\Documents\GitHub\Source-Code\eProjectSem3Team5\DL\obj\Debug\DL.dll
 C:\Users\DatPT\Documents\GitHub\Source-Code\eProjectSem3Team5\DL\obj\Debug\DL.pdb
+<<<<<<< HEAD
 C:\Users\HaiKD\Desktop\New eproject\Source-Code-master\eProjectSem3Team5\DL\bin\Debug\DL.dll
 C:\Users\HaiKD\Desktop\New eproject\Source-Code-master\eProjectSem3Team5\DL\bin\Debug\DL.pdb
 C:\Users\HaiKD\Desktop\New eproject\Source-Code-master\eProjectSem3Team5\DL\bin\Debug\Entities.dll
@@ -29,3 +30,5 @@ C:\Users\HaiKD\Desktop\New eproject\Source-Code-master\eProjectSem3Team5\DL\bin\
 C:\Users\HaiKD\Desktop\New eproject\Source-Code-master\eProjectSem3Team5\DL\obj\Debug\DL.csprojResolveAssemblyReference.cache
 C:\Users\HaiKD\Desktop\New eproject\Source-Code-master\eProjectSem3Team5\DL\obj\Debug\DL.dll
 C:\Users\HaiKD\Desktop\New eproject\Source-Code-master\eProjectSem3Team5\DL\obj\Debug\DL.pdb
+=======
+>>>>>>> 6e4e6cdbbbe0fa27ab94ba307e2d1c6c4015aaf7
