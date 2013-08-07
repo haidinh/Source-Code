@@ -206,6 +206,7 @@
     <Content Include="Images\orderedList9.png" />
     <Content Include="packages.config" />
     <Content Include="Admins\MasterPage.Master" />
+    <None Include="Properties\PublishProfiles\hai.pubxml" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="App_Themes\Admin\images\add.png" />
     <Content Include="App_Themes\Admin\images\back.png" />

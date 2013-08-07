@@ -1,0 +1,4 @@
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\Entities\bin\Release\Entities.dll
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\Entities\bin\Release\Entities.pdb
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\Entities\obj\Release\Entities.dll
+C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\Entities\obj\Release\Entities.pdb
