@@ -166,5 +166,36 @@ namespace DL
             }
         }
 
+        // Get products with certain category
+        public List<Product> GetProductByCategory(int iCategoryID)
+        {
+            try
+            {
+                List<Product> ListOfProductByCategory = new List<Product>();
+                connect = new Connection().Connect;
+                connect.Open();
+                Command = new SqlCommand("sp_GetProductByCategory", connect);
+                Command.CommandType = System.Data.CommandType.StoredProcedure;
+                Command.Parameters.AddWithValue("@CategoryID", iCategoryID);
+                SqlDataReader dr = Command.ExecuteReader();
+                while (dr.Read())
+                {
+                    Product objProduct = new Product();
+                    objProduct.ProductName = dr.GetString(0);
+                    objProduct.UnitPrice = dr.GetDecimal(1);
+                    objProduct.Picture = dr.GetString(2);
+                    objProduct.ProductID = dr.GetInt32(3);
+                    ListOfProductByCategory.Add(objProduct);
+                }
+                connect.Close();
+                return ListOfProductByCategory;
+            }
+            catch (Exception)
+            {
+                connect.Close();
+                return null;
+            }
+        }
+
     }
 }

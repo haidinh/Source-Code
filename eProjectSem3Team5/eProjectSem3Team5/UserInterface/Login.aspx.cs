@@ -6,7 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using BL;
 using Entities;
-using System.Web.UI.HtmlControls;
+//using System.Web.UI.HtmlControls;
 
 namespace eProjectSem3Team5.UserInterface
 {
@@ -17,14 +17,11 @@ namespace eProjectSem3Team5.UserInterface
         {
             // Register onclick event for button Login
             btnLogin.ServerClick += btnLogin_ServerClick;
-            if (!IsPostBack)
-            {
-                HtmlGenericControl divRightContent = (HtmlGenericControl)Master.FindControl("divRightContent");
-                divRightContent.Visible = false;
-
-            }
-
-
+            //if (!IsPostBack)
+            //{
+            //    HtmlGenericControl divRightContent = (HtmlGenericControl)Master.FindControl("divRightContent");
+            //    divRightContent.Visible = false;
+            //}
         }
 
         void btnLogin_ServerClick(object sender, EventArgs e)

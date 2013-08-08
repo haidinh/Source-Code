@@ -326,8 +326,10 @@
     <Content Include="UserInterface\css SignUp\demo.css" />
     <Content Include="UserInterface\css SignUp\style.css" />
     <Content Include="UserInterface\css\animate.css" />
+    <Content Include="UserInterface\css\freecontactform.css" />
     <Content Include="UserInterface\css\reset.css" />
     <Content Include="UserInterface\css\styles.css" />
+    <Content Include="UserInterface\FeedBackForm.aspx" />
     <Content Include="UserInterface\iecss.css" />
     <Content Include="UserInterface\images\bann1.jpg" />
     <Content Include="UserInterface\images\bann2.jpg" />
@@ -456,6 +458,13 @@
     <Compile Include="UploadPhoto.aspx.designer.cs">
       <DependentUpon>UploadPhoto.aspx</DependentUpon>
     </Compile>
+    <Compile Include="UserInterface\FeedBackForm.aspx.cs">
+      <DependentUpon>FeedBackForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserInterface\FeedBackForm.aspx.designer.cs">
+      <DependentUpon>FeedBackForm.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UserInterface\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -509,6 +518,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="ImageStorage\" />
+    <Folder Include="TemplateCV\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Account\Web.config" />

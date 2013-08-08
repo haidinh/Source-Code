@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using System.Web.UI.HtmlControls;
+//using System.Web.UI.HtmlControls;
 using BL;
 using Entities;
 
@@ -16,11 +16,11 @@ namespace eProjectSem3Team5.UserInterface
         protected void Page_Load(object sender, EventArgs e)
         {
             btnSignUp.ServerClick += btnSignUp_ServerClick;
-            if (!IsPostBack)
-            {
-                HtmlGenericControl divRightContent = (HtmlGenericControl)Master.FindControl("divRightContent");
-                divRightContent.Visible = false;
-            }
+            //if (!IsPostBack)
+            //{
+            //    HtmlGenericControl divRightContent = (HtmlGenericControl)Master.FindControl("divRightContent");
+            //    divRightContent.Visible = false;
+            //}
         }
 
         void btnSignUp_ServerClick(object sender, EventArgs e)

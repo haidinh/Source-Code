@@ -208,3 +208,9 @@ C:\Users\HaiKD\Desktop\New eproject\Source-Code-master\eProjectSem3Team5\eProjec
 C:\Users\HaiKD\Desktop\New eproject\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\obj\Debug\UI.csprojResolveAssemblyReference.cache
 C:\Users\HaiKD\Desktop\New eproject\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\obj\Debug\eProjectSem3Team5.dll
 C:\Users\HaiKD\Desktop\New eproject\Source-Code-master\eProjectSem3Team5\eProjectSem3Team5\obj\Debug\eProjectSem3Team5.pdb
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\eProjectSem3Team5\bin\BL.dll
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\eProjectSem3Team5\bin\Entities.dll
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\eProjectSem3Team5\bin\DL.dll
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\eProjectSem3Team5\bin\BL.pdb
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\eProjectSem3Team5\bin\Entities.pdb
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\eProjectSem3Team5\bin\DL.pdb

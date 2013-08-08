@@ -60,6 +60,16 @@ namespace BL
             return dlUserInterfaceProcess.SignUp(sEmail, sPassword, sUserName);
         }
 
+        //Get products with certain category
+        public List<Product> GetProductByCategory(int iCategoryID)
+        {
+            if (dlUserInterfaceProcess == null)
+            {
+                dlUserInterfaceProcess = new DLUserInterfaceProcess();
+            }
+            return dlUserInterfaceProcess.GetProductByCategory(iCategoryID);
+        }
+
     }
 
 
