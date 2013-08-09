@@ -343,6 +343,7 @@
     <Content Include="UserInterface\images\footer_bg.gif" />
     <Content Include="UserInterface\images\footer_logo.png" />
     <Content Include="UserInterface\images\header_bg.jpg" />
+    <Content Include="UserInterface\images\header.png" />
     <Content Include="UserInterface\images\link_bg.gif" />
     <Content Include="UserInterface\images\logo.png" />
     <Content Include="UserInterface\images\menu_bg.gif" />

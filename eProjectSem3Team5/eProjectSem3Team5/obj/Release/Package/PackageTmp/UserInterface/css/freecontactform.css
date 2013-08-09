@@ -1,0 +1,59 @@
+.freecontactform {
+width: 460px;
+font-family: arial;
+border: 1px solid #AAA;
+padding:10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+margin:auto;
+}
+.freecontactformheader {
+font-size:18px;
+font-weight:bold;
+padding-top:10px;
+padding-bottom:10px;
+text-align:center;
+}
+.freecontactformmessage {
+text-align:center;
+padding-bottom:10px;
+}
+.freecontactform td {
+padding:4px;
+font-size:12px;
+}
+.freecontactform p {
+padding:4px;
+}
+.freecontactform label {
+padding:4px;
+}
+.freecontactform label {
+padding-right:10px
+}
+.required {
+font-weight:bold;
+}
+.required_star {
+font-weight:bold;
+color:#F00;
+}
+.not-required {
+font-weight:normal
+}
+.antispammessage {
+padding:10px;
+border-top:1px solid #AAA;
+border-bottom:1px solid #AAA;
+font-weight:bold 
+}
+.antispamquestion {
+font-weight:normal;
+}
+
+.feed_back
+{
+    width: 200px; height: 40px;background: #4b8df9; display: inline-block; padding: 5px 10px 6px; color: #fbf7f7; text-decoration: none; font-weight: bold; line-height: 1; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; -moz-box-shadow: 0 1px 3px #999; -webkit-box-shadow: 0 1px 3px #999; box-shadow: 0 1px 3px #999; text-shadow: 0 -1px 1px #222; border: none; position: relative; cursor: pointer; font-size: 14px; font-family:Verdana, Geneva, sans-serif;margin-left:66px;
+}
+.feed_back:hover	{ background-color: #2a78f6; }

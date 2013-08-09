@@ -63,6 +63,21 @@ if ((txt.indexOf('header')>-1)&&(txt.indexOf('body')>-1)&&(txt.indexOf('[')>-1)&
 else
    return false;
 }
+function Notify(message) {
+    {
+        alert(message);
+    }
+}
+function ConfirmBox(message) {
+    var x;
+    var r = confirm(message);
+    if (r == true) {
+        x = true;
+    }
+    else {
+        x = false;
+    }
+}
 
 function scanBO(curNode) {
 	  if (checkElemBO(curNode.title)) {

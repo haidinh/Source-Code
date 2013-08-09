@@ -11,6 +11,13 @@
 <link rel="stylesheet" type="text/css" href="iecss.css" />
 <![endif]-->
     <script type="text/javascript" src="js/boxOver.js"></script>
+    <style type="text/css">
+        .auto-style1
+        {
+            width: 728px;
+            height: 90px;
+        }
+    </style>
 </head>
 <body>
     <div id="main_container">
@@ -23,15 +30,11 @@
                             <img src="images/de.gif" alt="" /></a>
                 </div>
                 <div class="big_banner">
-                    <a href="http://all-free-download.com/free-website-templates/">
-                        <img src="images/banner728.jpg" alt="" /></a>
-                </div>
+                    &nbsp;</div>
             </div>
             <div id="logo">
-                <a href="http://all-free-download.com/free-website-templates/">
-                    <img src="images/logo.png" alt="" width="182" height="85" /></a>
-            </div>
-        </div>
+                &nbsp;</div>
+            <img class="auto-style1" src="images/header.png" alt=""/></div>
         <div id="main_content">
             <div id="menu_tab">
                 <ul class="menu">

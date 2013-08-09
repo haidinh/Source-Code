@@ -38,6 +38,7 @@ namespace eProjectSem3Team5.UserInterface
                 lblError.Visible = false;
                 Session["userName"] = objCareerer.UserName;
                 Session["CareererID"] = objCareerer.CareererID;
+                //Page.ClientScript.RegisterStartupScript(GetType(), "MyKey", "Notify('Log in is SUCCESS! ');", true);
                 Response.Redirect("Index.aspx");
             }
             else

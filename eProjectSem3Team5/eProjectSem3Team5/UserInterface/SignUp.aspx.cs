@@ -32,18 +32,24 @@ namespace eProjectSem3Team5.UserInterface
             {
                 blUserInterfaceProcess = new BLUserInterfaceProcess();
             }
-            bool bSignUpSuccess =  blUserInterfaceProcess.SignUp(sEmail,sPassword,sUserName);
+            bool bSignUpSuccess = blUserInterfaceProcess.SignUp(sEmail, sPassword, sUserName);
             if (bSignUpSuccess)
             {
-                ScriptManager.RegisterStartupScript(this, this.GetType(), "name", "javascriptfunction();", true);
-                Response.Redirect("Index.aspx");
+                ClientScriptManager CSM = Page.ClientScript;
+                if (!ReturnValue())
+                {
+                    string strconfirm = "<script>if(window.confirm('Your account has been registered!Do you wanna log in now')){window.location.href='Login.aspx'}</script>";
+                    CSM.RegisterClientScriptBlock(this.GetType(),"Confirm", strconfirm, false);
+                }
             }
             else
             {
                 lblSignUpError.Visible = true;
             }
-
-
+        }
+        bool ReturnValue()
+        {
+            return false;
         }
     }
 }

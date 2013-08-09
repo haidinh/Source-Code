@@ -58,6 +58,15 @@ namespace eProjectSem3Team5.UserInterface {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvEmail;
         
         /// <summary>
+        /// txtCompanyName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText txtCompanyName;
+        
+        /// <summary>
         /// txtAddress control.
         /// </summary>
         /// <remarks>
@@ -92,6 +101,15 @@ namespace eProjectSem3Team5.UserInterface {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputText txtPhoneNumber;
+        
+        /// <summary>
+        /// txtPostalCode control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText txtPostalCode;
         
         /// <summary>
         /// txtSubject control.

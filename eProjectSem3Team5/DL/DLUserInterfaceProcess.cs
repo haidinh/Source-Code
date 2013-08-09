@@ -196,6 +196,67 @@ namespace DL
                 return null;
             }
         }
+        public Product GetDetailProduct(int iProductID)
+        {
+            try
+            {
+                Product objProduct = new Product();
+                connect = new Connection().Connect;
+                connect.Open();
+                Command = new SqlCommand("sp_GetDetailProductByProductID", connect);
+                Command.CommandType = System.Data.CommandType.StoredProcedure;
+                Command.Parameters.AddWithValue("@ProductID", iProductID);
+                SqlDataReader dr = Command.ExecuteReader();
+                while (dr.Read())
+                {
+                    objProduct.ProductID = dr.GetInt32(0);
+                    objProduct.ProductName = dr.GetString(2);
+                    objProduct.Output = dr.GetInt32(3);
+                    objProduct.MadeGoodsSize = dr.GetDouble(4);
+                    objProduct.MachineSize = dr.GetString(5);
+                    objProduct.Weight = dr.GetDouble(6);
+                    objProduct.Picture = dr.GetString(7);
+                    objProduct.ExtraDescription = dr.GetString(8);
+                    objProduct.FrequentlyViewed = dr.GetInt32(9);
+                    objProduct.UnitPrice = dr.GetDecimal(10);
+                }
+                connect.Close();
+                return objProduct;
+            }
+            catch (Exception)
+            {
+                connect.Close();
+                return null;
+            }
+        }
+        public bool AddFeedBack(GuestFeedBack obj)
+        {
+            try
+            {                
+                connect = new Connection().Connect;
+                connect.Open();
+                Command = new SqlCommand("sp_Add2GuestFeedBack", connect);
+                Command.CommandType = System.Data.CommandType.StoredProcedure;
+                Command.Parameters.AddWithValue("@Email", obj.Email);
+                Command.Parameters.AddWithValue("@FullName", obj.FullName);
+                Command.Parameters.AddWithValue("@CompanyName", obj.CompanyName);
+                Command.Parameters.AddWithValue("@Address", obj.Address);
+                Command.Parameters.AddWithValue("@City", obj.City);
+                Command.Parameters.AddWithValue("@Nation", obj.Nation);
+                Command.Parameters.AddWithValue("@PhoneNumber", obj.PhoneNumber);
+                Command.Parameters.AddWithValue("@PostalCode", obj.PostalCode);
+                Command.Parameters.AddWithValue("@Subject", obj.Subject);
+                Command.Parameters.AddWithValue("@Comment", obj.Comment);
+                Command.ExecuteNonQuery();               
+                connect.Close();
+                return true;
+            }
+            catch (Exception)
+            {
+                connect.Close();
+                return false;
+            }
+        }
 
     }
 }

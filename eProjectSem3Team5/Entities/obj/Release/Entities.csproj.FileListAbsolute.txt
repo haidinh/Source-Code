@@ -2,3 +2,7 @@ C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\Entities\bin\Release
 C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\Entities\bin\Release\Entities.pdb
 C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\Entities\obj\Release\Entities.dll
 C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\Entities\obj\Release\Entities.pdb
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\Entities\bin\Release\Entities.dll
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\Entities\bin\Release\Entities.pdb
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\Entities\obj\Release\Entities.dll
+C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\Entities\obj\Release\Entities.pdb

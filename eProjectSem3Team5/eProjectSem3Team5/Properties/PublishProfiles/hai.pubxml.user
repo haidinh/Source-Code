@@ -311,10 +311,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/05/2013 00:51:38</publishTime>
     </File>
     <File Include="bin/BL.dll">
-      <publishTime>08/07/2013 10:30:30</publishTime>
+      <publishTime>08/09/2013 02:46:31</publishTime>
     </File>
     <File Include="bin/DL.dll">
-      <publishTime>08/07/2013 10:30:30</publishTime>
+      <publishTime>08/09/2013 02:46:30</publishTime>
     </File>
     <File Include="bin/DotNetOpenAuth.AspNet.dll">
       <publishTime>08/05/2013 00:51:38</publishTime>
@@ -335,13 +335,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/05/2013 00:51:38</publishTime>
     </File>
     <File Include="bin/Entities.dll">
-      <publishTime>08/07/2013 10:30:29</publishTime>
+      <publishTime>08/09/2013 02:46:29</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>08/05/2013 00:51:38</publishTime>
     </File>
     <File Include="bin/eProjectSem3Team5.dll">
-      <publishTime>08/07/2013 10:30:31</publishTime>
+      <publishTime>08/09/2013 02:46:32</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.Membership.OpenAuth.dll">
       <publishTime>08/05/2013 00:51:38</publishTime>
@@ -674,7 +674,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/06/2013 22:47:06</publishTime>
     </File>
     <File Include="UserInterface/css SignUp/style.css">
-      <publishTime>08/06/2013 22:47:06</publishTime>
+      <publishTime>08/08/2013 03:38:44</publishTime>
     </File>
     <File Include="UserInterface/css/.DS_Store">
       <publishTime>08/05/2013 23:23:36</publishTime>
@@ -682,11 +682,17 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="UserInterface/css/animate.css">
       <publishTime>08/05/2013 23:23:36</publishTime>
     </File>
+    <File Include="UserInterface/css/freecontactform.css">
+      <publishTime>08/08/2013 01:19:23</publishTime>
+    </File>
     <File Include="UserInterface/css/reset.css">
       <publishTime>08/05/2013 23:23:36</publishTime>
     </File>
     <File Include="UserInterface/css/styles.css">
-      <publishTime>08/06/2013 01:07:14</publishTime>
+      <publishTime>08/07/2013 23:27:50</publishTime>
+    </File>
+    <File Include="UserInterface/FeedBackForm.aspx">
+      <publishTime>08/09/2013 01:18:20</publishTime>
     </File>
     <File Include="UserInterface/iecss.css">
       <publishTime>08/05/2013 00:51:38</publishTime>
@@ -723,6 +729,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="UserInterface/images/footer_logo.png">
       <publishTime>08/05/2013 00:51:38</publishTime>
+    </File>
+    <File Include="UserInterface/images/header.png">
+      <publishTime>08/08/2013 21:27:58</publishTime>
     </File>
     <File Include="UserInterface/images/header_bg.jpg">
       <publishTime>08/05/2013 00:51:38</publishTime>
@@ -788,34 +797,34 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/05/2013 23:23:57</publishTime>
     </File>
     <File Include="UserInterface/Index.aspx">
-      <publishTime>08/05/2013 00:51:38</publishTime>
+      <publishTime>08/08/2013 22:47:39</publishTime>
     </File>
     <File Include="UserInterface/js/boxOver.js">
-      <publishTime>08/05/2013 00:51:38</publishTime>
+      <publishTime>08/09/2013 02:19:26</publishTime>
     </File>
     <File Include="UserInterface/Login.aspx">
-      <publishTime>08/06/2013 01:08:53</publishTime>
+      <publishTime>08/08/2013 02:55:04</publishTime>
     </File>
     <File Include="UserInterface/Logout.aspx">
       <publishTime>08/06/2013 02:09:58</publishTime>
     </File>
     <File Include="UserInterface/ProductDetails.aspx">
-      <publishTime>08/05/2013 00:51:38</publishTime>
+      <publishTime>08/09/2013 00:34:46</publishTime>
     </File>
     <File Include="UserInterface/ShowProductByCategory.aspx">
-      <publishTime>08/05/2013 00:51:38</publishTime>
+      <publishTime>08/08/2013 03:43:26</publishTime>
     </File>
     <File Include="UserInterface/SignUp.aspx">
-      <publishTime>08/07/2013 00:58:42</publishTime>
+      <publishTime>08/08/2013 04:00:24</publishTime>
     </File>
     <File Include="UserInterface/style.css">
-      <publishTime>08/05/2013 00:51:38</publishTime>
+      <publishTime>08/09/2013 00:40:28</publishTime>
     </File>
     <File Include="UserInterface/UserUI.Master">
-      <publishTime>08/06/2013 22:57:07</publishTime>
+      <publishTime>08/09/2013 00:42:45</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>08/07/2013 10:59:45</publishTime>
+      <publishTime>08/09/2013 02:46:33</publishTime>
     </File>
   </ItemGroup>
 </Project>

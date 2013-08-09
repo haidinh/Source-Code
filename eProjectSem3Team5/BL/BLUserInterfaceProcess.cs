@@ -69,6 +69,22 @@ namespace BL
             }
             return dlUserInterfaceProcess.GetProductByCategory(iCategoryID);
         }
+        public Product GetDetailProduct(int iProductID)
+        {
+            if (dlUserInterfaceProcess == null)
+            {
+                dlUserInterfaceProcess = new DLUserInterfaceProcess();
+            }
+            return dlUserInterfaceProcess.GetDetailProduct(iProductID);
+        }
+        public bool AddFeedBack(GuestFeedBack obj)
+        {
+            if (dlUserInterfaceProcess == null)
+            {
+                dlUserInterfaceProcess = new DLUserInterfaceProcess();
+            }
+            return dlUserInterfaceProcess.AddFeedBack(obj);
+        }
 
     }
 
