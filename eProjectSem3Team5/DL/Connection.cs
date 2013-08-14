@@ -13,7 +13,7 @@ namespace DL
         public SqlConnection Connect { get; set; }
         public Connection()
         {
-            string ConnectionString = "Data Source=HAIKD-PC\\SQL2008;Initial Catalog=EprojectSem3Team5;User ID=sa;Password=123456";
+            string ConnectionString = "Data Source=DATPT-PC\\;Initial Catalog=EprojectSem3Team5;Persist Security Info=True;User ID=sa;Password=sa123";
             Connect = new SqlConnection(ConnectionString);
         }
     }

@@ -26,11 +26,12 @@ namespace DL
         #endregion 
 
         #region AdminSelectById
-        public DataTable AdminSelectById()
+        public DataTable AdminSelectById(int id)
         {
             DataTable dt = new DataTable();
             using (SqlCommand command = new SqlCommand("sp_AdminSelectById", GetConnection()))
             {
+                command.Parameters.AddWithValue("@AdminID",id);
                 command.CommandType = CommandType.StoredProcedure;
                 SqlDataAdapter da = new SqlDataAdapter(command);
                 da.Fill(dt);

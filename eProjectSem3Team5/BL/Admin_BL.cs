@@ -19,9 +19,9 @@ namespace BL
         #endregion 
 
         #region AdminSelectById
-        public DataTable AdminSelectById()
+        public DataTable AdminSelectById(int id)
         {
-            return admin_dl.AdminSelectById();
+            return admin_dl.AdminSelectById(id);
         }
         #endregion 
 

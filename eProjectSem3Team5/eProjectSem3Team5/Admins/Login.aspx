@@ -1,198 +1,32 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="eProjectSem3Team5.Admins.Login" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="MyWeb.Admins.Login" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head id="Head1" runat="server">
-    <title>Logon admin panel</title>
-    <style type="text/css">
-        /*Login*/
-        .left_top
-        {
-            background-image: url(../App_Themes/Admin/images/xpwindowleft.jpg);
-            width: 13px;
-            background-repeat: no-repeat;
-            height: 30px;
-        }
-        .right_top
-        {
-            background-position: right 50%;
-            background-image: url(../App_Themes/Admin/images/xpwindowright.jpg);
-            width: 13px;
-            background-repeat: no-repeat;
-            height: 30px;
-        }
-        .top_bg
-        {
-            text-align: left;
-            font-weight: bold;
-            font-size: 13px;
-            background-image: url(../App_Themes/Admin/images/xpwindowbg.jpg);
-            height: 30px;
-            color: #ffffff;
-            background-repeat: repeat-x;
-            font-family: verdana;
-        }
-        .top_bg2
-        {
-            font-weight: bold;
-            padding-left: 150px;
-            font-size: 13px;
-            background-image: url(../App_Themes/Admin/images/top.jpg);
-            background-repeat: no-repeat;
-            border-left: #001eed 1px solid;
-            border-right: #001eed 1px solid;
-            width: auto;
-            height: 70px;
-            color: #ff3300;
-            font-family: verdana;
-        }
-        .bottom_login
-        {
-            border-left: #001eed 1px solid;
-            border-right: #001eed 1px solid;
-            border-bottom: #001eed 1px solid;
-            height: 1px;
-        }
-        .logname
-        {
-            font-size: 11px;
-            font-weight: bold;
-            color: #0b1985;
-            font-family: verdana;
-        }
-        .txtbox
-        {
-            border-right: #0b1985 1px solid;
-            border-top: #0b1985 1px solid;
-            text-align: left;
-            border-left: #0b1985 1px solid;
-            width: 250px;
-            color: #1c2874;
-            border-bottom: #0b1985 1px solid;
-            height: 19px;
-        }
-        .selectbox
-        {
-            border-right: #3854a1 1px solid;
-            border-top: #3854a1 1px solid;
-            border-left: #3854a1 1px solid;
-            border-bottom: #3854a1 1px solid;
-            font-family: verdana;
-            font-size: 12px;
-            padding-left: 10px;
-            height: 19px;
-            text-align: left;
-        }
-        .bg_main
-        {
-            border-right: #001eed 1px solid;
-            background: url(../App_Themes/Admin/images/bg_login.jpg) repeat-x center bottom;
-            padding-bottom: 10px;
-            border-left: #001eed 1px solid;
-            padding-top: 10px;
-        }
-        .txt3
-        {
-            font-size: 10px;
-            color: #0b1985;
-            font-family: verdana;
-            text-align: justify;
-        }
-        .error
-        {
-            color: Red;
-            font-size: 12px;
-            text-align: center;
-        }
-        .buttom_image
-        {
-            font-size: 12px;
-            font-weight: bold;
-            width: 100px;
-        }
-    </style>
+    <head>
+  <title>Login Form</title>
+  <link rel="stylesheet" href="../App_Themes/Admin/css/stylelogin.css"/>
+  <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
-<body>
-    <form id="form1" runat="server">
-    <div style="text-align: center">
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <table width="410" border="0" align="center" cellpadding="0" cellspacing="0">
-            <tr>
-                <td>
-                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                        <tr>
-                            <td width="13" class="left_top">
-                                &nbsp;
-                            </td>
-                            <td valign="middle" class="top_bg">
-                                Log On Admin Panel
-                            </td>
-                            <td width="13" class="right_top">
-                                &nbsp;
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <td class="top_bg2">
-                    Control Panel Login
-                </td>
-            </tr>
-            <tr>
-                <td class="bg_main" align="center">
-                    <table width="94%" border="0" cellspacing="0" cellpadding="3">
-                        <tr>
-                            <td width="29%" class="logname">
-                                Tên đăng nhập :
-                            </td>
-                            <td width="71%" align="left">
-                                <asp:TextBox ID="txtUsername" runat="server" Width="150px"></asp:TextBox>
-                                <asp:RequiredFieldValidator ID="rfvUsername" runat="server" ControlToValidate="txtUsername"
-                                    Display="Dynamic" ErrorMessage="*" SetFocusOnError="True"></asp:RequiredFieldValidator>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="logname">
-                                Mật khẩu :
-                            </td>
-                            <td align="left">
-                                <asp:TextBox ID="txtPassword" runat="server" Width="150px" TextMode="Password"></asp:TextBox><asp:RequiredFieldValidator
-                                    ID="rfvPassword" runat="server" ControlToValidate="txtPassword" Display="Dynamic"
-                                    ErrorMessage="*" SetFocusOnError="True"></asp:RequiredFieldValidator>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="error" colspan="2">
-                                &nbsp;
-                            </td>
-                        </tr>
- 
-                            <td height="47" colspan="2" align="center">
-                                <asp:Button ID="btnLogon" runat="server" Text="Login" OnClick="btnLogon_Click" />&nbsp;&nbsp;<asp:Button
-                                    ID="btnHuyBo" runat="server" Text="Cancel" OnClick="btnHuyBo_Click" />
-
-                        </td>
-                        <tr>
-                            <td colspan="2" height="2px">
-                                <img src="../App_Themes/Admin/images/blank.gif" />
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <td class="bottom_login" style="background: #7cbcfa; color: #FFFFFF;" height="25px">
-                    &nbsp;</td>
-            </tr>
-        </table>
+<body runat="server">
+  <section class="container">
+    <div class="login">
+      <h1>Login to Adminstrator</h1>
+      <form method="post"  runat="server">
+        <p><asp:TextBox ID="txt_Username" runat="server" ></asp:TextBox></p>
+        <p><asp:TextBox ID="txt_Passoword" runat="server" TextMode="Password"></asp:TextBox></p>
+        <p class="remember_me">
+        </p>
+        <p class="submit"><asp:Button ID="btn_Login" runat="server" Text="Login" OnClick="btnLogon_Click"></asp:Button></p>
+      </form>
     </div>
-    </form>
+
+  </section>
+
+  <section class="about">
+    <p class="about-author">
+      &copy; 2012&ndash;2013 <a href="http://thibaut.me" target="_blank">Thibaut Courouble</a> -
+      <a href="http://www.cssflow.com/mit-license" target="_blank">MIT License</a><br/>
+      Original PSD by <a href="http://www.premiumpixels.com/freebies/clean-simple-login-form-psd/" target="_blank">Orman Clark</a>
+  </section>
 </body>
 </html>

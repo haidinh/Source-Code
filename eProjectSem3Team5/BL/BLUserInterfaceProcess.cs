@@ -69,6 +69,7 @@ namespace BL
             }
             return dlUserInterfaceProcess.GetProductByCategory(iCategoryID);
         }
+
         public Product GetDetailProduct(int iProductID)
         {
             if (dlUserInterfaceProcess == null)
@@ -77,6 +78,8 @@ namespace BL
             }
             return dlUserInterfaceProcess.GetDetailProduct(iProductID);
         }
+
+        // Get FeedBack from guest
         public bool AddFeedBack(GuestFeedBack obj)
         {
             if (dlUserInterfaceProcess == null)
@@ -85,6 +88,16 @@ namespace BL
             }
             return dlUserInterfaceProcess.AddFeedBack(obj);
         }
+
+        public void UpdateViewedProduct(int iProductID, int newViewedNumberProuduct)
+        {
+            if (dlUserInterfaceProcess == null)
+            {
+                dlUserInterfaceProcess = new DLUserInterfaceProcess();
+            }
+            dlUserInterfaceProcess.UpdateViewedProduct(iProductID, newViewedNumberProuduct);
+        }
+
 
     }
 

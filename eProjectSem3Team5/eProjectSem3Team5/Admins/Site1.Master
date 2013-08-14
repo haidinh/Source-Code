@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="testlayout.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="../App_Themes/Admin/css/style.css" type="text/css" media="all" />
+
+</head>
+<body runat ="server">
+    <form id="form1" runat="server">
+<!-- Header -->
+<div id="header">
+	<div class="shell">
+		<!-- Logo + Top Nav -->
+		<div id="top">
+			<h1>
+                <asp:Label ID="Label1" runat="server" Text="Adminstrator manager"></asp:Label></h1>
+			<div id="top-navigation">
+				Welcome <asp:Label ID="lbl_username" runat="server" ForeColor="#FFFFCC" ></asp:Label>
+                <asp:LinkButton ID="lbtn_logout" runat="server" OnClick="lbtn_logout_Click" CssClass="btnchangepassword">Log out    </asp:LinkButton>
+                <asp:LinkButton ID="lbtn_Changepassword" runat="server" OnClick="lbtn_Changepassword_Click" CssClass="btnlogout">Profile Setting</asp:LinkButton>
+			</div>
+		</div>
+		<!-- End Logo + Top Nav -->
+		
+		<!-- Main Nav -->
+		<div id="navigation">
+			<ul>			   
+			    <li><a href="Category.aspx"><span>Category </span></a></li>
+			    <li><a href="Products.aspx"><span>Products</span></a></li>
+			    <li><a href="GuestFeedBack.aspx"><span>Guest Feedback</span></a></li>
+			    <li><a href="Careerer.aspx"><span>Careerer</span></a></li>
+                <li><a href="Email.aspx"><span>Email</span></a></li>
+			</ul>
+		</div>
+		<!-- End Main Nav -->
+         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+	</div>
+</div>
+<!-- End Header -->
+
+<!-- Container -->
+
+<!-- End Container -->
+
+<!-- Footer -->
+
+<!-- End Footer -->
+    </form>
+	
+</body>
+</html>

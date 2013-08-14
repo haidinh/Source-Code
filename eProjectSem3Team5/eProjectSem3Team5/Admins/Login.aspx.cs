@@ -2,7 +2,7 @@
 using BL;
 using MyWeb.Common;
 using System.Data;
-namespace eProjectSem3Team5.Admins
+namespace MyWeb.Admins
 {
     public partial class Login : System.Web.UI.Page
     {
@@ -15,10 +15,10 @@ namespace eProjectSem3Team5.Admins
         {
             try
             {
-                DataTable dt = admin_bl.AdminCheckLogin(txtUsername.Text.Trim(), txtPassword.Text.Trim());
+                DataTable dt = admin_bl.AdminCheckLogin(txt_Username.Text.Trim(), txt_Passoword.Text.Trim());
                 if (dt.Rows.Count == 1)
                 {
-                    Session["Username"] = txtUsername.Text.Trim();
+                    Session["Username"] = txt_Username.Text.Trim();
                     Session["AdminId"] = dt.Rows[0]["AdminID"].ToString().Trim();
                     Response.Redirect("~/Admins/Default.aspx");
                 }
@@ -32,10 +32,6 @@ namespace eProjectSem3Team5.Admins
                 WebMsgBox.Show(ex.Message);
                 throw;
             }
-        }
-        protected void btnHuyBo_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("~/Home.aspx");
         }
     }
 }

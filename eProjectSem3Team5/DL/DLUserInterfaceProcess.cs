@@ -9,10 +9,12 @@ using Entities;
 
 namespace DL
 {
-    public class DLUserInterfaceProcess
+    public class DLUserInterfaceProcess :SqlDataProvider
     {
         public SqlConnection connect { get; set; }
         public SqlCommand Command { get; set; }
+
+        // Get all categories of products
         public List<Category> GetCategory()
         {
             try
@@ -39,6 +41,8 @@ namespace DL
                 return null;
             }
         }
+        
+        // Get products that are added lastest to database
         public List<Product> GetProductByAddedDate()
         {
             try
@@ -67,12 +71,14 @@ namespace DL
                 connect.Close();
                 return ListOfProduct;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 connect.Close();
                 return null;
             }
         }
+
+        // Get products which are most viewed 
         public List<Product> GetProductByMostFrequentlyViewed()
         {
             try
@@ -107,7 +113,8 @@ namespace DL
                 return null;
             }
         }
-        //  LOG IN
+        
+        //  Log in
         public Careerer Login(string sEmail, string sPassword)
         {
             try
@@ -141,6 +148,7 @@ namespace DL
                 return null;
             }
         }
+        
         // Sign up
         public bool SignUp(string sEmail, string sPassword, string sUserName)
         {
@@ -196,6 +204,8 @@ namespace DL
                 return null;
             }
         }
+
+        // Get product's details
         public Product GetDetailProduct(int iProductID)
         {
             try
@@ -229,6 +239,8 @@ namespace DL
                 return null;
             }
         }
+
+        // Get FeedBack from guest and save
         public bool AddFeedBack(GuestFeedBack obj)
         {
             try
@@ -255,6 +267,26 @@ namespace DL
             {
                 connect.Close();
                 return false;
+            }
+        }
+
+        // Update FrequentlyViewedProduct after the product had been viewd 
+        public void UpdateViewedProduct(int iProductID,int newViewedNumberProuduct)
+        {
+            try
+            {
+                connect = new Connection().Connect;
+                connect.Open();
+                Command = new SqlCommand("sp_UpdateViewedProduct", connect);
+                Command.CommandType = System.Data.CommandType.StoredProcedure;
+                Command.Parameters.AddWithValue("@ProductID",iProductID);
+                Command.Parameters.AddWithValue("@FrequentlyViewed", newViewedNumberProuduct);                
+                Command.ExecuteNonQuery();
+                connect.Close();
+            }
+            catch (Exception)
+            {
+                connect.Close();
             }
         }
 
