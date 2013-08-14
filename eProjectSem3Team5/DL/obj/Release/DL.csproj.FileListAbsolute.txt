@@ -12,3 +12,10 @@ C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\DL\bin\Release\Entitie
 C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\DL\obj\Release\DL.csprojResolveAssemblyReference.cache
 C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\DL\obj\Release\DL.dll
 C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\DL\obj\Release\DL.pdb
+C:\Users\Datpt\Documents\GitHub\Source-Code\eProjectSem3Team5\DL\bin\Release\DL.dll
+C:\Users\Datpt\Documents\GitHub\Source-Code\eProjectSem3Team5\DL\bin\Release\DL.pdb
+C:\Users\Datpt\Documents\GitHub\Source-Code\eProjectSem3Team5\DL\bin\Release\Entities.dll
+C:\Users\Datpt\Documents\GitHub\Source-Code\eProjectSem3Team5\DL\bin\Release\Entities.pdb
+C:\Users\Datpt\Documents\GitHub\Source-Code\eProjectSem3Team5\DL\obj\Release\DL.csprojResolveAssemblyReference.cache
+C:\Users\Datpt\Documents\GitHub\Source-Code\eProjectSem3Team5\DL\obj\Release\DL.dll
+C:\Users\Datpt\Documents\GitHub\Source-Code\eProjectSem3Team5\DL\obj\Release\DL.pdb

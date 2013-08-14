@@ -15,13 +15,6 @@ C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\DL\obj\Debug\DL.dll
 C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\DL\obj\Debug\DL.pdb
 C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\DL\bin\Debug\Entities.dll
 C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\DL\bin\Debug\Entities.pdb
-C:\Users\DatPT\Documents\GitHub\Source-Code\eProjectSem3Team5\DL\bin\Debug\DL.dll
-C:\Users\DatPT\Documents\GitHub\Source-Code\eProjectSem3Team5\DL\bin\Debug\DL.pdb
-C:\Users\DatPT\Documents\GitHub\Source-Code\eProjectSem3Team5\DL\bin\Debug\Entities.dll
-C:\Users\DatPT\Documents\GitHub\Source-Code\eProjectSem3Team5\DL\bin\Debug\Entities.pdb
-C:\Users\DatPT\Documents\GitHub\Source-Code\eProjectSem3Team5\DL\obj\Debug\DL.csprojResolveAssemblyReference.cache
-C:\Users\DatPT\Documents\GitHub\Source-Code\eProjectSem3Team5\DL\obj\Debug\DL.dll
-C:\Users\DatPT\Documents\GitHub\Source-Code\eProjectSem3Team5\DL\obj\Debug\DL.pdb
 C:\Users\HaiKD\Desktop\New eproject\Source-Code-master\eProjectSem3Team5\DL\bin\Debug\DL.dll
 C:\Users\HaiKD\Desktop\New eproject\Source-Code-master\eProjectSem3Team5\DL\bin\Debug\DL.pdb
 C:\Users\HaiKD\Desktop\New eproject\Source-Code-master\eProjectSem3Team5\DL\bin\Debug\Entities.dll
@@ -31,3 +24,10 @@ C:\Users\HaiKD\Desktop\New eproject\Source-Code-master\eProjectSem3Team5\DL\obj\
 C:\Users\HaiKD\Desktop\New eproject\Source-Code-master\eProjectSem3Team5\DL\obj\Debug\DL.pdb
 C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\DL\bin\Debug\Entities.dll
 C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\DL\bin\Debug\Entities.pdb
+C:\Users\Datpt\Documents\GitHub\Source-Code\eProjectSem3Team5\DL\obj\Debug\DL.csprojResolveAssemblyReference.cache
+C:\Users\Datpt\Documents\GitHub\Source-Code\eProjectSem3Team5\DL\bin\Debug\DL.dll
+C:\Users\Datpt\Documents\GitHub\Source-Code\eProjectSem3Team5\DL\bin\Debug\DL.pdb
+C:\Users\Datpt\Documents\GitHub\Source-Code\eProjectSem3Team5\DL\bin\Debug\Entities.dll
+C:\Users\Datpt\Documents\GitHub\Source-Code\eProjectSem3Team5\DL\bin\Debug\Entities.pdb
+C:\Users\Datpt\Documents\GitHub\Source-Code\eProjectSem3Team5\DL\obj\Debug\DL.dll
+C:\Users\Datpt\Documents\GitHub\Source-Code\eProjectSem3Team5\DL\obj\Debug\DL.pdb

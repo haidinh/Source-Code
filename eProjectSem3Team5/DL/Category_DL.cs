@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using Entities;
 using System.Data;
-using MyWeb.Common;
 using System.Data.SqlClient;
 using System.Data.SqlTypes;
 namespace DL

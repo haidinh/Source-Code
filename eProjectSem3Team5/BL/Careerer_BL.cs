@@ -11,6 +11,7 @@ namespace BL
     public class Careerer_BL
     {
         Careerer_DL user = new Careerer_DL();
+
         #region CareererSelectAll
         public DataTable CareererSelectAll()
         {
@@ -18,7 +19,7 @@ namespace BL
         }
         #endregion
 
-        #region CareererSelectAll
+        #region CareererSelectById
         public DataTable CareererSelectById(int id)
         {
             return user.CareererSelectById(id);

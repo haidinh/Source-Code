@@ -45,8 +45,7 @@ namespace eProjectSem3Team5.Admins {
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::AjaxControlToolkit.ToolkitScriptManager ToolkitScriptManager1;
+        /// </remarks>nager1;
         
         /// <summary>
         /// upe_title control.

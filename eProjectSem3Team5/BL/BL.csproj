@@ -41,6 +41,10 @@
   <ItemGroup>
     <Compile Include="Admin_BL.cs" />
     <Compile Include="BLUserInterfaceProcess.cs" />
+    <Compile Include="Careerer_BL.cs" />
+    <Compile Include="Category_BL.cs" />
+    <Compile Include="GuestFeedback_BL.cs" />
+    <Compile Include="Products_BL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

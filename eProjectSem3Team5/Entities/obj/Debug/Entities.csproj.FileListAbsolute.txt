@@ -7,7 +7,7 @@ C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\Entities\bin\Debug\E
 C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\Entities\bin\Debug\Entities.pdb
 C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\Entities\obj\Debug\Entities.dll
 C:\Users\HaiKD\Desktop\Source-Code-master\eProjectSem3Team5\Entities\obj\Debug\Entities.pdb
-C:\Users\DatPT\Documents\GitHub\Source-Code\eProjectSem3Team5\Entities\obj\Debug\Entities.dll
-C:\Users\DatPT\Documents\GitHub\Source-Code\eProjectSem3Team5\Entities\obj\Debug\Entities.pdb
-C:\Users\DatPT\Documents\GitHub\Source-Code\eProjectSem3Team5\Entities\bin\Debug\Entities.dll
-C:\Users\DatPT\Documents\GitHub\Source-Code\eProjectSem3Team5\Entities\bin\Debug\Entities.pdb
+C:\Users\Datpt\Documents\GitHub\Source-Code\eProjectSem3Team5\Entities\bin\Debug\Entities.dll
+C:\Users\Datpt\Documents\GitHub\Source-Code\eProjectSem3Team5\Entities\bin\Debug\Entities.pdb
+C:\Users\Datpt\Documents\GitHub\Source-Code\eProjectSem3Team5\Entities\obj\Debug\Entities.dll
+C:\Users\Datpt\Documents\GitHub\Source-Code\eProjectSem3Team5\Entities\obj\Debug\Entities.pdb

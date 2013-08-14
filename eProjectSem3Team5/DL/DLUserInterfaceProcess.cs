@@ -9,7 +9,7 @@ using Entities;
 
 namespace DL
 {
-    public class DLUserInterfaceProcess :SqlDataProvider
+    public class DLUserInterfaceProcess 
     {
         public SqlConnection connect { get; set; }
         public SqlCommand Command { get; set; }
@@ -71,7 +71,7 @@ namespace DL
                 connect.Close();
                 return ListOfProduct;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 connect.Close();
                 return null;

@@ -6,3 +6,7 @@ C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\Entities\bin\Release\E
 C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\Entities\bin\Release\Entities.pdb
 C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\Entities\obj\Release\Entities.dll
 C:\Users\HaiKD\Dropbox\Eproject_Sem3_G5\eProjectSem3Team5\Entities\obj\Release\Entities.pdb
+C:\Users\Datpt\Documents\GitHub\Source-Code\eProjectSem3Team5\Entities\bin\Release\Entities.dll
+C:\Users\Datpt\Documents\GitHub\Source-Code\eProjectSem3Team5\Entities\bin\Release\Entities.pdb
+C:\Users\Datpt\Documents\GitHub\Source-Code\eProjectSem3Team5\Entities\obj\Release\Entities.dll
+C:\Users\Datpt\Documents\GitHub\Source-Code\eProjectSem3Team5\Entities\obj\Release\Entities.pdb
